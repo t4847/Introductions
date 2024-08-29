@@ -17,7 +17,7 @@ print("Mine is chips, but " + favFood + " sounds delicious!")
 print()
 
 favMusic = input("What's your favorite music? ")
-if favMusic == "metal" or "Metal":
+if favMusic == "metal" or favMusic == "Metal":
   print("Mine too!")
 else:
   print("Mine is metal, but I like " + favMusic + " too!")
