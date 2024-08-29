@@ -1,0 +1,32 @@
+print("Booting program...")
+print("Boot Succesful.")
+print()
+print()
+print()
+print(
+    "Hello! My name is Hal 9000! I am a computer program designed to converse with you!"
+)
+print()
+
+myName = input("What's your name? ")
+print("Hello " + myName + "!")
+print()
+
+favFood = input("What's your favorite food? ")
+print("Mine is chips, but " + favFood + " sounds delicious!")
+print()
+
+favMusic = input("What's your favorite music? ")
+if favMusic == "metal" or "Metal":
+  print("Mine too!")
+else:
+  print("Mine is metal, but I like " + favMusic + " too!")
+print()
+
+myLocation = input("Where do you live? ")
+print("I live in a computer, but I would love to visit " + myLocation +
+      " sometime!")
+print()
+print()
+
+print("I just know you'll do great things in life!")
